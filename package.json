@@ -1,12 +1,12 @@
 {
-  "name": "LAKA-MD",
+  "name": "SILVA-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start lakaofc.js --deep-monitoring --attach --name LAKA-MD",
-    "stop": "pm2 stop LAKA-MD",
-    "restart": "pm2 restart LAKA-MD"
+    "start": "pm2 start lakaofc.js --deep-monitoring --attach --name SILVA-MD",
+    "stop": "pm2 stop SILVA-MD",
+    "restart": "pm2 restart SILVA-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "github:nstar-y/bail",
